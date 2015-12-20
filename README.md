@@ -2,7 +2,7 @@
 
 ![Almost ideal round robin](http://agafonov.pp.ru/blog/wp-content/uploads/2015/12/round-robin.png)
 
-Just test! Take this simple script and test on your own.
+Just test! Take this simple script and test on your own, with python 2 or 3.
 
 Options:
 ```
@@ -26,8 +26,8 @@ $ ./dns_round_robin_test.py google.com -c 20
 
 Sample output:
 ```
-==== google.com ======== 20 of 20 ====
-   188.43.66.154 [              |||||| 30.0%] 6
-   188.43.66.177 [                |||| 20.0%] 4
-   188.43.66.159 [          |||||||||| 50.0%] 10
+================ google.com ================ 20/20
+  188.43.66.170 [               ||||| 25.0%] 5
+  188.43.66.187 [               ||||| 25.0%] 5
+  188.43.66.174 [          |||||||||| 50.0%] 10
 ```
